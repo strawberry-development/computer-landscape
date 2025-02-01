@@ -108,7 +108,7 @@ String createOutputFolder() {
 }
 
 void saveArtwork(String folderPath) {
-  String filename = folderPath + "/generative_art_" + generation + ".png";
+  String filename = "output/" + folderPath + "/generative_art_" + generation + ".png";
   save(filename);
   println("Saved: " + filename);
 }
