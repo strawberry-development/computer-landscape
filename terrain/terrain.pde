@@ -16,7 +16,7 @@ boolean spinning = false;
 float spinAngle = 0;
 
 void setup() {
-  size(450, 800, P3D);
+  size(1024, 1024, P3D);
   smooth(4);
   
   cols = w / scl;
